@@ -1,0 +1,79 @@
+body {
+  background: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 900px;
+  margin: auto;
+}
+
+.post {
+  background: white;
+  padding: 15px;
+  border: 3px solid black;
+  margin: 15px;
+  border-radius: 3px;
+}
+
+#title, .subtitle, .post_title {
+  color:blue;
+}
+
+.post_title {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.post_content {
+  margin: 0;
+  margin-bottom: 15px;
+  
+}
+
+.post_img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+a {
+  text-decoration: line-through;
+  color:rgb(170, 170, 170)
+}
+.contacts-list {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.contacts-list li a {
+  color: blue;
+  text-decoration: none;
+}
+/*
+css é incremental, portanto posso fzer:
+border
+border-top
+border-top-width 
+e especificar ainda mais minha configuração de:
+tamanho
+cor
+estilo
+
+font-family 
+web safe fonts: 
+    verdana
+    arial
+text decoration 
+text transform   
+font 
+
+list-style-type
+imagens, simbolos, index
+
+width
+height
+max 
+
+margin 
+text align
+
+*/
