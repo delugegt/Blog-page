@@ -52,8 +52,18 @@ a {
   text-decoration: none;
 }
 
+.header {
+  display:flex;
+}
 
-
+.top_img {
+  margin-top: 15px;
+}
+/*
+#title {
+  margin-left: 100px;
+}
+*/
 /*
 css é incremental, portanto posso fzer:
 border
