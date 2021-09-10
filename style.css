@@ -1,6 +1,6 @@
 body {
-  background: gray;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:white;
+  font-family: Verdana;
   max-width: 900px;
   margin: auto;
 }
@@ -8,15 +8,15 @@ body {
 .post {
   background: white;
   padding: 15px;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   margin: 15px;
-  border-radius: 3px;
+  /* border-radius: 3px; */   
 }
 
 #title, .subtitle, .post_title {
-  color:blue;
+  color:rgb(139, 139, 139);
 }
-
+/* Titulo do post */
 .post_title {
   font-size: 16px;
   font-style: italic;
@@ -27,27 +27,33 @@ body {
 .post_content {
   margin: 0;
   margin-bottom: 15px;
+  /* justificando texto */ 
+  text-align: justify;
   
 }
 
 .post_img {
   margin-bottom: 15px;
   width: 100%;
+  opacity: 80%;
 }
 
 a {
-  text-decoration: line-through;
-  color:rgb(170, 170, 170)
+  color:rgb(22, 93, 187)
 }
+
 .contacts-list {
   list-style-type: none;
-  padding-left: 15px;
+    /* padding-left: 15px;*/ 
 }
 
 .contacts-list li a {
-  color: blue;
+  color: rgb(22, 93, 187);
   text-decoration: none;
 }
+
+
+
 /*
 css é incremental, portanto posso fzer:
 border
